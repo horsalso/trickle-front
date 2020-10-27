@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./js/dropzone.css" type="text/css"/>
+        <script src="./js/dropzone.js"></script>
+    </head>
+    <body>
+        <div id="myDropzone" class="dropzoneStyle"></div>
+        <script>
+          Dropzone.autoDiscover = false;
+          var myDropzone=new Dropzone("div#myDropzone",{
+            url:"/",
+          });
+        </script>
+    </body>
+</html>
